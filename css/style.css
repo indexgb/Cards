@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: 'Lobster Two', cursive;
+}
+.container__card {
+    display: flex;
+    background-color: black;
+}
+
+.cards {
+    width: 350px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3,
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: auto;
+    width: 250px;
+    height: 30px;
+}
+
+.btn {
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: lightgrey;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: lightgrey;
+}
+
+.cards-1 {
+    background-color: rgb(159, 160, 161);
+}
+
+.imagen {
+    border: 2px solid white;
+    width: 150px;
+    margin: 15px auto 30px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    box-shadow: 15px 10px 20px black;
+}

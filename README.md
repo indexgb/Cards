@@ -1,2 +1,1 @@
-version 0.2 
-Aqui se agrego un header y un nav 
+version 0.2
